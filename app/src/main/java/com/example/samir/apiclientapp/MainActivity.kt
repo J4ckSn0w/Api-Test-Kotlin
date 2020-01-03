@@ -111,6 +111,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+
         articles_recycler.setHasFixedSize(true)
         val layoutManager = LinearLayoutManager(this)
         layoutManager.orientation = LinearLayoutManager.VERTICAL
